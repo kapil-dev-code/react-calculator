@@ -1,0 +1,91 @@
+
+/*for light mode*/
+.app{
+
+  /*variables for css*/
+  --bg-color-1:#dee0e4;
+  --bg-color-2:#61c079;
+  --text-color-1:#0b1537;
+  --text-color-2:#240606;
+  --text-color-3:rgb(17, 6, 6);
+  
+   
+
+}
+/*for dark mode*/
+.app[data-theme="dark"]{
+  --bg-color-1:#172d67;
+  --bg-color-2:rgb(34, 28, 28);
+  --text-color-1:#fbfcfc;
+  --text-color-2:#bbbcbc;
+  --text-color-3:white;
+  
+}
+/* setting of scrollbar of ( custom-scroll class of header and header expression because both have scroll bar one is overflow x and other one is overflow y)*/
+.custom-scroll::-webkit-scrollbar{
+  height: 5px;
+  width: 5px;
+}
+.custom-scroll::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover{
+  border-color: gray;
+}
+.app{
+  background-color: rgb(70, 48, 168);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.app_calculator{
+  height: 520px;
+  width: 300px;
+  
+  border-radius:28px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.20);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.app_calculator_navbar{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  background-color:transparent;
+  overflow: hidden;
+  min-height: 30px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+   
+}
+.app_calculator_navbar img{
+  height: 24px;
+  width: 24px;
+}
+.app_calculator_navbar_toggle{
+ height: 15px;
+ width: 30px;
+ border-radius: 20px;
+  box-shadow: 1px 1px 40px 80px rgba(0, 0, 0,0.15);
+}
+.app_calculator_navbar_toggle_circle{
+height: 15px;
+width: 15px;
+border-radius: 50%;
+background-color: var(--text-color-1);
+transition: 300ms ;
+}
+.app_calculator_navbar_toggle_circle_active{
+  margin-left: 15px;
+}
