@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kapil-dev-code/react-calculator/static/css/main.587a3978.chunk.css",
+    "main.js": "/kapil-dev-code/react-calculator/static/js/main.69a7582a.chunk.js",
+    "main.js.map": "/kapil-dev-code/react-calculator/static/js/main.69a7582a.chunk.js.map",
+    "runtime-main.js": "/kapil-dev-code/react-calculator/static/js/runtime-main.38d84d20.js",
+    "runtime-main.js.map": "/kapil-dev-code/react-calculator/static/js/runtime-main.38d84d20.js.map",
+    "static/js/2.14f1d658.chunk.js": "/kapil-dev-code/react-calculator/static/js/2.14f1d658.chunk.js",
+    "static/js/2.14f1d658.chunk.js.map": "/kapil-dev-code/react-calculator/static/js/2.14f1d658.chunk.js.map",
+    "index.html": "/kapil-dev-code/react-calculator/index.html",
+    "static/css/main.587a3978.chunk.css.map": "/kapil-dev-code/react-calculator/static/css/main.587a3978.chunk.css.map",
+    "static/js/2.14f1d658.chunk.js.LICENSE.txt": "/kapil-dev-code/react-calculator/static/js/2.14f1d658.chunk.js.LICENSE.txt",
+    "static/media/moon.png": "/kapil-dev-code/react-calculator/static/media/moon.2e096fda.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38d84d20.js",
+    "static/js/2.14f1d658.chunk.js",
+    "static/css/main.587a3978.chunk.css",
+    "static/js/main.69a7582a.chunk.js"
+  ]
+}
